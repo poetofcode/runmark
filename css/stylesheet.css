@@ -1,0 +1,18 @@
+body {
+    margin: 0px 0px 1px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+    background: #0D210C;
+}
+
+#info {
+    font-family: verdana;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    background: #eee;
+    color: #333;
+    padding: 5px;
+}
+
+#info #fps {
+    font-weight: bold;
+}
