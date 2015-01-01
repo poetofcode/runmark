@@ -30,6 +30,8 @@ BasicGame.Mark.prototype = {
         this.fps = document.querySelector('#fps');
         this.units = document.querySelector('#units');
         this.units.innerHTML = 'Units: ' + BasicGame.UNITS_COUNT;
+        this.renderer = document.querySelector('#renderer');
+        this.renderer.innerHTML = this.game.renderer.type == 0 ? 'WebGL' : 'Canvas';
     },
 
     preload: function () {
